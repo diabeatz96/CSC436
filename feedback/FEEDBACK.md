@@ -106,7 +106,7 @@ Things Claude measured (so you know these aren't guesses):
 
   ```mermaid
   flowchart TB
-      a["index.html line 10<br/>integrity=&quot;sha384-...LH7qKQnuq<b>kuqku</b>IAvNW...&quot;<br/>three characters pasted twice"]
+      a["index.html line 10<br/>integrity=sha384-...LH7qKQnuq<b>kuqku</b>IAvNW...<br/>three characters pasted twice"]
       b["Browser computes the real hash:<br/>...LH7qKQnuq<b>ku</b>IAvNW...<br/>They do not match"]
       c["bootstrap.min.css is <b>blocked</b><br/>Console: 'Failed to find a valid digest'"]
       d1[".container<br/>no max-width, no centering:<br/>page runs edge to edge at 1280px"]
