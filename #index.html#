@@ -21,19 +21,9 @@
       <h1>Order Banhmigos</h1>
       <p>Grab a bánh mì, a rice box, or bubble tea from our kitchen.</p>
       <div class="order-options"><p>Pickup</p><p>Delivery</p></div>
-      <img src="assets/images/banhmigos-food.jpg" alt="Vietnamese rice, spring rolls, noodles, and fresh vegetables served on plates">
     </section>
 
-    <nav class="menu-filters">
-      <button class="filter-button active-filter" data-filter="all">All</button>
-      <button class="filter-button" data-filter="sandwiches">Sandwiches</button>
-      <button class="filter-button" data-filter="appetizer">Appetizer</button>
-      <button class="filter-button" data-filter="rice">Rice Boxes</button>
-      <button class="filter-button" data-filter="beverages">Beverages</button>
-    </nav>
-    <p id="filter-message">Showing all menu items.</p>
-
-    <section data-category="sandwiches">
+    <section>
       <h2>Sandwiches</h2>
       <div class="menu-grid">
       <div class="menu-card p-3 mb-3">
@@ -49,7 +39,7 @@
       </div>
     </section>
 
-    <section data-category="appetizer">
+    <section>
       <h2>Appetizer</h2>
       <div class="menu-grid">
       <div class="menu-card p-3 mb-3">
@@ -60,7 +50,7 @@
       </div>
     </section>
 
-    <section data-category="rice">
+    <section>
       <h2>Rice Boxes</h2>
       <div class="menu-grid">
       <div class="menu-card p-3 mb-3">
@@ -71,7 +61,7 @@
       </div>
     </section>
 
-    <section data-category="beverages">
+    <section>
       <h2>Beverages</h2>
       <div class="menu-grid">
       <div class="menu-card p-3 mb-3">

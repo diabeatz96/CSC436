@@ -67,6 +67,30 @@ header {
   border-radius: 20px;
 }
 
+.menu-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 20px 0 8px;
+}
+
+.filter-button {
+  padding: 6px 12px;
+  border: 1px solid #3d663f;
+  border-radius: 4px;
+  background: white;
+  color: #3d663f;
+}
+
+.active-filter {
+  background: #3d663f;
+  color: white;
+}
+
+.hidden-section {
+  display: none;
+}
+
 .card-action {
   align-items: center;
 }
