@@ -26,6 +26,16 @@ h2 {
   border: 1px solid #dbe2d9;
 }
 
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.menu-grid .menu-card {
+  margin-bottom: 0 !important;
+}
+
 img {
   width: 100%;
   max-width: 500px;
@@ -37,6 +47,49 @@ header {
   border-bottom: 2px solid #d85a35;
 }
 
+.site-header, .order-options, .card-action {
+  display: flex;
+}
+
+.site-header, .card-action {
+  justify-content: space-between;
+}
+
+.order-options {
+  gap: 12px;
+}
+
+.order-options p {
+  margin: 0;
+  padding: 6px 12px;
+  background: #3d663f;
+  color: white;
+  border-radius: 20px;
+}
+
+.card-action {
+  align-items: center;
+}
+
+.card-action p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.card-action button {
+  padding: 6px 14px;
+  border: 0;
+  border-radius: 4px;
+  background: #d85a35;
+  color: white;
+}
+
 footer {
   border-top: 2px solid #d85a35;
+}
+
+@media (min-width: 700px) {
+  .menu-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
